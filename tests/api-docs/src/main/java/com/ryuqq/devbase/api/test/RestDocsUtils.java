@@ -1,10 +1,12 @@
+package com.ryuqq.devbase.api.test;
+
+import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath;
+
 import org.springframework.restdocs.operation.preprocess.OperationRequestPreprocessor;
 import org.springframework.restdocs.operation.preprocess.OperationResponsePreprocessor;
 import org.springframework.restdocs.operation.preprocess.Preprocessors;
 import org.springframework.restdocs.payload.FieldDescriptor;
 import org.springframework.restdocs.payload.JsonFieldType;
-
-import static org.springframework.restdocs.payload.PayloadDocumentation.fieldWithPath;
 
 public class RestDocsUtils {
 

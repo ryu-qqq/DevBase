@@ -1,4 +1,4 @@
-package com.ryuqq.devbase;
+package com.ryuqq.devbase.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,9 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
         "com.ryuqq.devbase.domain",
         "com.ryuqq.devbase.api",
         "com.ryuqq.devbase.batch",
-        "com.ryuqq.devbase.support.utils",
-        "com.ryuqq.devbase.support.external.core",
-        "com.ryuqq.devbase.storage.db.core",
-        "com.ryuqq.devbase.storage.cache.core",
+        "com.ryuqq.devbase.storage",
+		"com.ryuqq.devbase.logging",
+
 })
 
 public class DevBaseApplication {

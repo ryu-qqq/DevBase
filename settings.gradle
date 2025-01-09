@@ -8,7 +8,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'core-server'
+rootProject.name = 'dev-base'
 
 //core
 include 'core:core-api'
