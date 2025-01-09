@@ -1,7 +1,12 @@
+plugins {
+	id 'java-test-fixtures'
+}
+
+
 dependencies {
     //Cucumber
-    testImplementation "io.cucumber:cucumber-java:${cucumberVersion}"
-    testImplementation "io.cucumber:cucumber-junit-platform-engine:${cucumberVersion}"
-    testImplementation "io.cucumber:cucumber-spring:${cucumberVersion}"
+	testFixturesImplementation "io.cucumber:cucumber-java:${cucumberVersion}"
+	testFixturesImplementation "io.cucumber:cucumber-junit-platform-engine:${cucumberVersion}"
+	testFixturesImplementation "io.cucumber:cucumber-spring:${cucumberVersion}"
 
 }
