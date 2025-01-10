@@ -96,9 +96,9 @@ storage:
   datasource:
     core:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://hanni.cfacertspqbw.ap-northeast-2.rds.amazonaws.com:3306/hanni
-      username: admin
-      password: Tpxhvm1234!!
+      jdbc-url:
+      username:
+      password:
       maximum-pool-size: 5
       connection-timeout: 1100
       keepalive-time: 30000
